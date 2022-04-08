@@ -1,0 +1,7 @@
+// star-repo-message.proto
+syntax = "proto3";
+
+message StarRepoMessage {
+  string author = 1;
+  string repo   = 2;
+}
